@@ -10,6 +10,7 @@
         android:targetSdkVersion="29" />
 
     <application
+        android:name="com.byron.module.MainApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -18,6 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.byron.module.MainActivity" >
             <intent-filter>
@@ -26,6 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.byron.business_a.MainActivity" />
+        <activity android:name="com.byron.business_b.activities.MainActivity" />
     </application>
 
 </manifest>

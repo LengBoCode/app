@@ -173,10 +173,10 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 2 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 7 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Mon Aug 24 19:14:18 CST 2020      </nav>
+Check performed at Sat Sep 05 13:48:52 CST 2020      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -184,7 +184,9 @@ Check performed at Mon Aug 24 19:14:18 CST 2020      </nav>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
       <a class="mdl-navigation__link" href="#ObsoleteLintCustomCheck"><i class="material-icons warning-icon">warning</i>Obsolete custom lint check (1)</a>
+      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (3)</a>
       <a class="mdl-navigation__link" href="#AllowBackup"><i class="material-icons warning-icon">warning</i>AllowBackup/FullBackupContent Problems (1)</a>
+      <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (2)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -202,11 +204,21 @@ Check performed at Mon Aug 24 19:14:18 CST 2020      </nav>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#ObsoleteLintCustomCheck">ObsoleteLintCustomCheck</a>: Obsolete custom lint check</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Security">Security</a>
 </td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#AllowBackup">AllowBackup</a>: AllowBackup/FullBackupContent Problems</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#HardcodedText">HardcodedText</a>: Hardcoded text</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (38)</a>
 </td></tr></table>
 <br/>              </div>
@@ -225,7 +237,7 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../../../../../../../../.gradle/caches/transforms-2/files-2.1/f4c0d726fc0e5d830b8d8bc9f7d0a396/appcompat-1.2.0/jars/lint.jar">../../../../../../../../../.gradle/caches/transforms-2/files-2.1/f4c0d726fc0e5d830b8d8bc9f7d0a396/appcompat-1.2.0/jars/lint.jar</a></span>: <span class="message">Lint found an issue registry (<code>androidx.appcompat.AppCompatIssueRegistry</code>) which requires a newer API level. That means that the custom lint checks are intended for a newer lint version; please upgrade</span><br />
+<span class="location"><a href="../../../../../../../../../../.gradle/caches/transforms-2/files-2.1/0d361a94abe0ed43413a971296cb39a2/appcompat-1.2.0/jars/lint.jar">../../../../../../../../../../.gradle/caches/transforms-2/files-2.1/0d361a94abe0ed43413a971296cb39a2/appcompat-1.2.0/jars/lint.jar</a></span>: <span class="message">Lint found an issue registry (<code>androidx.appcompat.AppCompatIssueRegistry</code>) which requires a newer API level. That means that the custom lint checks are intended for a newer lint version; please upgrade</span><br />
 </div>
 <div class="metadata"><div class="explanation" id="explanationObsoleteLintCustomCheck" style="display: none;">
 Lint can be extended with "custom checks": additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.<br/>
@@ -253,6 +265,74 @@ It may also flag issues found to be using a <b>newer</b> version of the API, mea
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationObsoleteLintCustomCheckLink" onclick="reveal('explanationObsoleteLintCustomCheck');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="ObsoleteLintCustomCheckCardLink" onclick="hideid('ObsoleteLintCustomCheckCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Correctness"></a>
+<a name="GradleDependency"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleDependencyCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Obsolete Gradle Dependency</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:31</span>: <span class="message">A newer version of androidx.constraintlayout:constraintlayout than 1.1.3 is available: 2.0.1</span><br /><pre class="errorlines">
+<span class="lineno"> 28 </span>    implementation fileTree(dir: <span class="string">'libs'</span>, include: [<span class="string">'*.jar'</span>])
+<span class="lineno"> 29 </span>    println(<span class="string">"配置依赖"</span>)
+<span class="lineno"> 30 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.2.0'</span>
+<span class="caretline"><span class="lineno"> 31 </span>    <span class="warning">implementation <span class="string">'androidx.constraintlayout:constraintlayout:1.1.3'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 32 </span>    androidTestImplementation <span class="string">'androidx.test.ext:junit:1.1.1'</span>
+<span class="lineno"> 33 </span>    androidTestImplementation <span class="string">'androidx.test.espresso:espresso-core:3.2.0'</span>
+<span class="lineno"> 34 </span>
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:32</span>: <span class="message">A newer version of androidx.test.ext:junit than 1.1.1 is available: 1.1.2</span><br /><pre class="errorlines">
+<span class="lineno"> 29 </span>    println(<span class="string">"配置依赖"</span>)
+<span class="lineno"> 30 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.2.0'</span>
+<span class="lineno"> 31 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:1.1.3'</span>
+<span class="caretline"><span class="lineno"> 32 </span>    <span class="warning">androidTestImplementation <span class="string">'androidx.test.ext:junit:1.1.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 33 </span>    androidTestImplementation <span class="string">'androidx.test.espresso:espresso-core:3.2.0'</span>
+<span class="lineno"> 34 </span>
+<span class="lineno"> 35 </span>    implementation rootProject.ext.base
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:33</span>: <span class="message">A newer version of androidx.test.espresso:espresso-core than 3.2.0 is available: 3.3.0</span><br /><pre class="errorlines">
+<span class="lineno"> 30 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.2.0'</span>
+<span class="lineno"> 31 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:1.1.3'</span>
+<span class="lineno"> 32 </span>    androidTestImplementation <span class="string">'androidx.test.ext:junit:1.1.1'</span>
+<span class="caretline"><span class="lineno"> 33 </span>    <span class="warning">androidTestImplementation <span class="string">'androidx.test.espresso:espresso-core:3.2.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 34 </span>
+<span class="lineno"> 35 </span>    implementation rootProject.ext.base
+<span class="lineno"> 36 </span>    implementation rootProject.ext.business_a
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationGradleDependency" style="display: none;">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">GradleDependency</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 4/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDependencyLink" onclick="reveal('explanationGradleDependency');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDependencyCardLink" onclick="hideid('GradleDependencyCard');">
 Dismiss</button>            </div>
             </div>
           </section>
@@ -311,6 +391,67 @@ To suppress this error, use the issue id "AllowBackup" as explained in the <a hr
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationAllowBackupLink" onclick="reveal('explanationAllowBackup');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="AllowBackupCardLink" onclick="hideid('AllowBackupCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Internationalization"></a>
+<a name="HardcodedText"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="HardcodedTextCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Hardcoded text</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:13</span>: <span class="message">Hardcoded string "Net", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 10 </span><span class="attribute">        </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 11 </span>        <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 12 </span>        <span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/net"</span>
+<span class="caretline"><span class="lineno"> 13 </span>        <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Net"</span></span>/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 14 </span>
+<span class="lineno"> 15 </span>    <span class="tag">&lt;Button</span><span class="attribute">
+</span><span class="lineno"> 16 </span><span class="attribute">        </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:19</span>: <span class="message">Hardcoded string "Db", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 16 </span><span class="attribute">        </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 17 </span>        <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 18 </span>        <span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/db"</span>
+<span class="caretline"><span class="lineno"> 19 </span>        <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Db"</span></span>/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 20 </span>
+<span class="lineno"> 21 </span><span class="tag">&lt;/LinearLayout></span></pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationHardcodedText" style="display: none;">
+Hardcoding text attributes directly in layout files is bad for several reasons:<br/>
+<br/>
+* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)<br/>
+<br/>
+* The application cannot be translated to other languages by just adding new translations for existing string resources.<br/>
+<br/>
+There are quickfixes to automatically extract this hardcoded string into a resource lookup.<br/>To suppress this error, use the issue id "HardcodedText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">HardcodedText</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Internationalization</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 5/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationHardcodedTextLink" onclick="reveal('explanationHardcodedText');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="HardcodedTextCardLink" onclick="hideid('HardcodedTextCard');">
 Dismiss</button>            </div>
             </div>
           </section>

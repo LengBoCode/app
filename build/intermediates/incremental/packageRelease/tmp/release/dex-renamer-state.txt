@@ -1,4 +1,4 @@
-#Mon Aug 24 19:14:19 CST 2020
-base.0=/Users/byronleng/Desktop/Study/Project/Android/Component/Module/app/build/intermediates/dex/release/out/classes.dex
+#Sat Sep 05 13:48:52 CST 2020
+base.0=/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/build/intermediates/dex/release/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

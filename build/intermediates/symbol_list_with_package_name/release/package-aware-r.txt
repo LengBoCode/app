@@ -529,6 +529,7 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen business_b_ok
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -755,6 +756,7 @@ id content
 id contentPanel
 id custom
 id customPanel
+id db
 id decor_content_parent
 id default_activity_button
 id dialog_button
@@ -786,6 +788,7 @@ id list_item
 id message
 id middle
 id multiply
+id net
 id never
 id none
 id normal
