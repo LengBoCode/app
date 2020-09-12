@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Toast;
 
 import com.byron.business_a.AUtils;
 import com.byron.business_b.BUtils;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent);
 //                BUtils.sayHello(MainActivity.this);
                 AUtils.sayHello(MainActivity.this);
-
+//                Toast.makeText(MainActivity.this, getString(R.string.from_a),Toast.LENGTH_LONG).show();
             }
         });
 

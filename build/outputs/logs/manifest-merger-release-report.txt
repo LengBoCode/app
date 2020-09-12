@@ -1,62 +1,66 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
-MERGED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
 MERGED from [:base] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/base/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/0d361a94abe0ed43413a971296cb39a2/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/abab12422db22c86949cfabca99a1727/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [com.byron:business_a:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/383bf3dc1b8b2d5e87a23da98beda749/jetified-business_a-1.0.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.byron:db:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/5d535c04f48eba9c171e48edadcd5099/jetified-db-1.0.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.byron:net:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/96c1356502d8802934dad77f1536d474/jetified-net-1.0.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/00f61401710b9f0527130806a9bca1a9/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4437c98463d6541df5098bb23211c0e8/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/519a08981490598b552f79cf0623101f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/176595f25c77ada865596ce6b05706a6/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/2d857b094e959da0d9bba17f03416fce/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/a1accdb3b1a11556da22c8e0a342b28b/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/75c3f6010c9543f28fcaf463abbd5c42/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/808640a003e7481a7e143ad2a10791c6/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/3b743eeecedf5f7ca3e2f71dcf9378e2/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/99749c2d3c90975e3ec45ecbf76b5c52/core-1.3.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/d538cf77b7e83d67766904cd429ba980/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/b7af5953c246673e7988a5719b63f5b0/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/53de31439cf6d6fc9c96ceb59e89958d/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/65b0b8f822579cfd4e2d090c5072b0ec/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/bf11867ba1e94805f02bf9159fddb4e8/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/fd2a8caea64b6e369f6a29db2d2015ff/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/53faf761eaebbb0a7cc91a03c5ce2b29/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/de29d1c5da37d7bdeaeb370ae95c426d/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f5f96a6ac7f79bafdc7b60a585c242b3/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e472aac515f5f752b310b8b2336f55c8/constraintlayout-2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f42476cf1f9ef9b67a0981892184a327/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.byron:db:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/6764187308dc406986716ba442387a13/jetified-db-1.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.byron:net:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/fc4243ffb9068be070092a3cce584b0a/jetified-net-1.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9358bb2a099469314fc0e6baa9c3c20c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f072efb51768d4347e149d1b8c15f851/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/eb8edcdc06df716e39eff34c7fa64102/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/d453b643839c885dc0569aed4b2e7184/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9ec0f91f32804bdba3f13704b2166670/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/ffe356917e11b9ea3c4d9d55fac1b6aa/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/2649da783abf7861aaf35c286d8896b6/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4b6dc0590be52355a1aa249424f8abea/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e9d47fa134eb9057270ece5d19c96e7e/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/3c8cedb36a8b3eb4eff7eb08e032c4ff/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01918d0e6dd2620143a52062ef76740f/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01e9df4e39ec66d23a43f92084f75ff2/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/35e047c4ce6924e79cef026873234409/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/c4630ef5ac7091dc4f44bde37ea9c69b/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/506a26b8b4446108c06bcb5475688881/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9515952f4fdd646fb8ba1fff2e75ea97/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/dd131427da2d85cade303b0e25713bfe/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/ed91642fe0a6659a6015e594820ac735/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4d8d0e3f1635d82a103bfa5363cc9d6b/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:11-37
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
-		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
-		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:3:5-63
 application
-ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:5:5-19:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/abab12422db22c86949cfabca99a1727/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/abab12422db22c86949cfabca99a1727/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.3.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/99749c2d3c90975e3ec45ecbf76b5c52/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/99749c2d3c90975e3ec45ecbf76b5c52/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/b7af5953c246673e7988a5719b63f5b0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/b7af5953c246673e7988a5719b63f5b0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-13:19
+MERGED from [:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-13:19
+MERGED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-13:19
+MERGED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-13:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e472aac515f5f752b310b8b2336f55c8/constraintlayout-2.0.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e472aac515f5f752b310b8b2336f55c8/constraintlayout-2.0.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01918d0e6dd2620143a52062ef76740f/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01918d0e6dd2620143a52062ef76740f/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01e9df4e39ec66d23a43f92084f75ff2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01e9df4e39ec66d23a43f92084f75ff2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/99749c2d3c90975e3ec45ecbf76b5c52/core-1.3.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01918d0e6dd2620143a52062ef76740f/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
@@ -69,76 +73,78 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byro
 		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.byron.module.MainActivity
-ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
+MERGED from [:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:base] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/base/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:base] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/base/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/0d361a94abe0ed43413a971296cb39a2/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/0d361a94abe0ed43413a971296cb39a2/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/abab12422db22c86949cfabca99a1727/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/abab12422db22c86949cfabca99a1727/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.byron:business_a:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/383bf3dc1b8b2d5e87a23da98beda749/jetified-business_a-1.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.byron:business_a:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/383bf3dc1b8b2d5e87a23da98beda749/jetified-business_a-1.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.byron:db:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/5d535c04f48eba9c171e48edadcd5099/jetified-db-1.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.byron:db:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/5d535c04f48eba9c171e48edadcd5099/jetified-db-1.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.byron:net:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/96c1356502d8802934dad77f1536d474/jetified-net-1.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.byron:net:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/96c1356502d8802934dad77f1536d474/jetified-net-1.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/00f61401710b9f0527130806a9bca1a9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/00f61401710b9f0527130806a9bca1a9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4437c98463d6541df5098bb23211c0e8/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4437c98463d6541df5098bb23211c0e8/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/519a08981490598b552f79cf0623101f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/519a08981490598b552f79cf0623101f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/176595f25c77ada865596ce6b05706a6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/176595f25c77ada865596ce6b05706a6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/2d857b094e959da0d9bba17f03416fce/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/2d857b094e959da0d9bba17f03416fce/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/a1accdb3b1a11556da22c8e0a342b28b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/a1accdb3b1a11556da22c8e0a342b28b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/75c3f6010c9543f28fcaf463abbd5c42/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/75c3f6010c9543f28fcaf463abbd5c42/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/808640a003e7481a7e143ad2a10791c6/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/808640a003e7481a7e143ad2a10791c6/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/3b743eeecedf5f7ca3e2f71dcf9378e2/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/3b743eeecedf5f7ca3e2f71dcf9378e2/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/99749c2d3c90975e3ec45ecbf76b5c52/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/99749c2d3c90975e3ec45ecbf76b5c52/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/d538cf77b7e83d67766904cd429ba980/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/d538cf77b7e83d67766904cd429ba980/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/b7af5953c246673e7988a5719b63f5b0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/b7af5953c246673e7988a5719b63f5b0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/53de31439cf6d6fc9c96ceb59e89958d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/53de31439cf6d6fc9c96ceb59e89958d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/65b0b8f822579cfd4e2d090c5072b0ec/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/65b0b8f822579cfd4e2d090c5072b0ec/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/bf11867ba1e94805f02bf9159fddb4e8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/bf11867ba1e94805f02bf9159fddb4e8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/fd2a8caea64b6e369f6a29db2d2015ff/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/fd2a8caea64b6e369f6a29db2d2015ff/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/53faf761eaebbb0a7cc91a03c5ce2b29/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/53faf761eaebbb0a7cc91a03c5ce2b29/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/de29d1c5da37d7bdeaeb370ae95c426d/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/de29d1c5da37d7bdeaeb370ae95c426d/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f5f96a6ac7f79bafdc7b60a585c242b3/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f5f96a6ac7f79bafdc7b60a585c242b3/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e472aac515f5f752b310b8b2336f55c8/constraintlayout-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e472aac515f5f752b310b8b2336f55c8/constraintlayout-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f42476cf1f9ef9b67a0981892184a327/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f42476cf1f9ef9b67a0981892184a327/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.byron:db:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/6764187308dc406986716ba442387a13/jetified-db-1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.byron:db:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/6764187308dc406986716ba442387a13/jetified-db-1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.byron:net:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/fc4243ffb9068be070092a3cce584b0a/jetified-net-1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.byron:net:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/fc4243ffb9068be070092a3cce584b0a/jetified-net-1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9358bb2a099469314fc0e6baa9c3c20c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9358bb2a099469314fc0e6baa9c3c20c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f072efb51768d4347e149d1b8c15f851/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/f072efb51768d4347e149d1b8c15f851/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/eb8edcdc06df716e39eff34c7fa64102/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/eb8edcdc06df716e39eff34c7fa64102/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/d453b643839c885dc0569aed4b2e7184/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/d453b643839c885dc0569aed4b2e7184/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9ec0f91f32804bdba3f13704b2166670/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9ec0f91f32804bdba3f13704b2166670/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/ffe356917e11b9ea3c4d9d55fac1b6aa/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/ffe356917e11b9ea3c4d9d55fac1b6aa/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/2649da783abf7861aaf35c286d8896b6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/2649da783abf7861aaf35c286d8896b6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4b6dc0590be52355a1aa249424f8abea/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4b6dc0590be52355a1aa249424f8abea/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e9d47fa134eb9057270ece5d19c96e7e/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/e9d47fa134eb9057270ece5d19c96e7e/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/3c8cedb36a8b3eb4eff7eb08e032c4ff/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/3c8cedb36a8b3eb4eff7eb08e032c4ff/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01918d0e6dd2620143a52062ef76740f/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01918d0e6dd2620143a52062ef76740f/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01e9df4e39ec66d23a43f92084f75ff2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01e9df4e39ec66d23a43f92084f75ff2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/35e047c4ce6924e79cef026873234409/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/35e047c4ce6924e79cef026873234409/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/c4630ef5ac7091dc4f44bde37ea9c69b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/c4630ef5ac7091dc4f44bde37ea9c69b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/506a26b8b4446108c06bcb5475688881/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/506a26b8b4446108c06bcb5475688881/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9515952f4fdd646fb8ba1fff2e75ea97/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/9515952f4fdd646fb8ba1fff2e75ea97/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/dd131427da2d85cade303b0e25713bfe/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/dd131427da2d85cade303b0e25713bfe/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/ed91642fe0a6659a6015e594820ac735/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/ed91642fe0a6659a6015e594820ac735/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4d8d0e3f1635d82a103bfa5363cc9d6b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/4d8d0e3f1635d82a103bfa5363cc9d6b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -149,3 +155,11 @@ INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/mod
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 		ADDED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
+activity#com.byron.business_a.MainActivity
+ADDED from [:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-70
+	android:name
+		ADDED from [:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-67
+activity#com.byron.business_b.activities.MainActivity
+ADDED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-81
+	android:name
+		ADDED from [:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-78

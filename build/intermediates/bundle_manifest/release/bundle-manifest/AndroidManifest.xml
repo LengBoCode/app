@@ -9,6 +9,7 @@
         android:targetSdkVersion="29" />
 
     <application
+        android:name="com.byron.module.MainApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:extractNativeLibs="false"
@@ -24,6 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.byron.business_a.MainActivity" />
+        <activity android:name="com.byron.business_b.activities.MainActivity" />
     </application>
 
 </manifest>

@@ -11,36 +11,44 @@
 9-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:5:5-19:19
-12        android:allowBackup="true"
-12-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.0] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/99749c2d3c90975e3ec45ecbf76b5c52/core-1.3.0/AndroidManifest.xml:24:18-86
-14        android:extractNativeLibs="false"
-15        android:icon="@mipmap/ic_launcher"
-15-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity android:name="com.byron.module.MainActivity" >
-20-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:12:9-18:20
-20-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:14:17-69
-22-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:16:17-77
-24-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+11-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:5:5-20:19
+12        android:name="com.byron.module.MainApplication"
+12-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:12:9-40
+13        android:allowBackup="true"
+13-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:6:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.3.1] /Users/byronleng/.gradle/caches/transforms-2/files-2.1/01918d0e6dd2620143a52062ef76740f/core-1.3.1/AndroidManifest.xml:24:18-86
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:10:9-35
+20        android:theme="@style/AppTheme" >
+20-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity android:name="com.byron.module.MainActivity" >
+21-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:13:9-19:20
+21-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:13:19-47
+22            <intent-filter>
+22-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:14:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:15:17-69
+23-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:17:17-77
+25-->/Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/app/src/main/AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.byron.business_a.MainActivity" />
+28-->[:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-70
+28-->[:business_a] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_a/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-67
+29        <activity android:name="com.byron.business_b.activities.MainActivity" />
+29-->[:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-81
+29-->[:business_b] /Users/byronleng/Desktop/Study/Project/Android/Component/shell/modules/business_b/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-78
+30    </application>
+31
+32</manifest>
